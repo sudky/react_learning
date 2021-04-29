@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>My web page</title>
+       <!-- <style>
+            h1 {
+                color: red;
+            }
+            p {
+                color: red;
+            }
+        </style> -->
+        <style>
+            .colorRed{
+                color: red;
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="demo.css"></head>
+        <script>
+            function myclick(){
+                var x = document.getElementById("p1")
+                alert("Pop up opens")
+            }
+        </script>
+    </head> 
+    <body>
+        <h1>Welcome to HTML</h1>
+        <p class="colorRed" id="p1">My first web page.</p>
+        <button type="button" id="button1" onclick="myclick()">Click Me</button>
+    </body>
+</html>
